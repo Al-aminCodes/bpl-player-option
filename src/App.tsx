@@ -1,0 +1,30 @@
+import { Suspense, useState } from "react";
+import Navber from "./component/navbar";
+import Players from "./component/players/players";
+import Banner from "./component/Banner";
+import Subscribe from "./component/Subscribe";
+import Footer from "./component/Footer";
+
+const playersFetch = async () => {
+  const res = await fetch("/data.json");
+  const data = await res.json();
+  return data.players;
+};
+
+function App() {
+  const [playerPromise] = useState(() => playersFetch());
+  const [coin, setCoin] = useState(5000);
+  return (
+    <>
+      <Navber coin={coin}></Navber>
+      <Banner />
+      <Suspense fallback={<h1>Loading...</h1>}>
+        <Players playerPromise={playerPromise} coin={coin} setCoin={setCoin} />
+      </Suspense>
+      <Subscribe />
+      <Footer />
+    </>
+  );
+}
+
+export default App;

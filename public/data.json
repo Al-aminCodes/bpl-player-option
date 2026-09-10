@@ -1,0 +1,94 @@
+{
+  "players": [
+    {
+      "playerName": "Virat Kohli",
+      "playerImage": "https://static1.squarespace.com/static/5d7fa27ac591f01062106a9f/5dbbb95dfcb9741b8ddd9a1f/6828e50576d2063b43a4a0c7/1748089406929/Virat+Kohli.jpg?format=1500w",
+      "origin": "India",
+      "playerType": "Batsman",
+      "bowlingStyle": "Right-arm medium",
+      "battingStyle": "Right-hand bat",
+      "price": 1500,
+      "id": 1
+    },
+    {
+      "playerName": "Babar Azam",
+      "playerImage": "https://static.cricbuzz.com/a/img/v1/1080x608/i1/c1055739/babar-was-already-recovering-from-an-impact-injury-in-the-west-indies-series.jpg",
+      "origin": "Pakistan",
+      "playerType": "Batsman",
+      "bowlingStyle": "Right-arm off break",
+      "battingStyle": "Right-hand bat",
+      "price": 1400,
+      "id": 2
+    },
+    {
+      "playerName": "Shakib Al Hasan",
+      "playerImage": "https://api.bdcrictime.com/shakib-glass-25_01_2026.jpg",
+      "origin": "Bangladesh",
+      "playerType": "All-rounder",
+      "bowlingStyle": "Slow left-arm orthodox",
+      "battingStyle": "Left-hand bat",
+      "price": 1200,
+      "id": 3
+    },
+    {
+      "playerName": "Jasprit Bumrah",
+      "playerImage": "https://images.indianexpress.com/2023/08/Bumrah-13.jpg",
+      "origin": "India",
+      "playerType": "Bowler",
+      "bowlingStyle": "Right-arm fast",
+      "battingStyle": "Right-hand bat",
+      "price": 1300,
+      "id": 4
+    },
+    {
+      "playerName": "Rashid Khan",
+      "playerImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKXovFtTQDhpvwUCqvsUkzUF-xcr9VeqbjrzNdx2bNIg&s=10",
+      "origin": "Afghanistan",
+      "playerType": "All-rounder",
+      "bowlingStyle": "Right-arm leg break",
+      "battingStyle": "Right-hand bat",
+      "price": 700,
+      "id": 5
+    },
+    {
+      "playerName": "Kane Williamson",
+      "playerImage": "https://resources.cricket-australia.pulselive.com/photo-resources/2023/10/13/9759a852-a9f1-4a51-8139-a00e09553daf/Kane-Williamson-Thumb-injury.jpg?width=1000&height=1388",
+      "origin": "New Zealand",
+      "playerType": "Batsman",
+      "bowlingStyle": "Right-arm off break",
+      "battingStyle": "Right-hand bat",
+      "price": 1000,
+      "id": 6
+    },
+    {
+      "playerName": "Ben Stokes",
+      "playerImage": "https://resources.ecb.co.uk/player-photos/test/800x800/1154.png",
+      "origin": "England",
+      "playerType": "All-rounder",
+      "bowlingStyle": "Right-arm fast-medium",
+      "battingStyle": "Left-hand bat",
+      "price": 1250,
+      "id": 7
+    },
+    {
+      "playerName": "Shaheen Afridi",
+      "playerImage": "https://i.pinimg.com/474x/c5/80/c5/c580c5131e66aa1d9148a4197a207c10.jpg",
+      "origin": "Pakistan",
+      "playerType": "Bowler",
+      "bowlingStyle": "Left-arm fast",
+      "battingStyle": "Left-hand bat",
+      "price": 1150,
+      "id": 8
+    },
+    {
+      "playerName": "Travis Head",
+      "playerImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT42Ka6mCtHSoePRcKcBeRxm4albKWy8sSNN1x_x6zxbA&s=10",
+      "origin": "Australia",
+      "playerType": "Batsman",
+      "bowlingStyle": "Right-arm off break",
+      "battingStyle": "Left-hand bat",
+      "price": 950,
+      "id": 9
+    }
+  ]
+}
