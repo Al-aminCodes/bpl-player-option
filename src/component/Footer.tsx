@@ -33,20 +33,14 @@ const Footer = () => {
               </li>
 
               <li>
-                <a href="#" className="hover:text-white">
-                  Fixture
+                <a href="#about" className="hover:text-white">
+                  About
                 </a>
               </li>
 
               <li>
-                <a href="#" className="hover:text-white">
+                <a href="#team" className="hover:text-white">
                   Teams
-                </a>
-              </li>
-
-              <li>
-                <a href="#" className="hover:text-white">
-                  Schedules
                 </a>
               </li>
             </ul>
