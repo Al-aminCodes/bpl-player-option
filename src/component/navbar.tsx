@@ -11,16 +11,21 @@ const Navber = ({ coin }: ICoinType) => {
         <img src={logo} alt="" />
         <ul className=" hidden md:flex items-center gap-3  ">
           <li>
-            <a href=""> Home</a>
+            <a href="#" className="transition hover:text-green-500">
+              {" "}
+              Home
+            </a>
           </li>
           <li>
-            <a href=""> Fixture</a>
+            <a href="#about" className="transition hover:text-green-500">
+              About
+            </a>
           </li>
           <li>
-            <a href=""> Teams</a>
-          </li>
-          <li>
-            <a href="">Schedules</a>
+            <a href="#team" className="transition hover:text-green-500">
+              {" "}
+              Teams
+            </a>
           </li>
         </ul>
 

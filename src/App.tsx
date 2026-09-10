@@ -4,6 +4,7 @@ import Players from "./component/players/players";
 import Banner from "./component/Banner";
 import Subscribe from "./component/Subscribe";
 import Footer from "./component/Footer";
+import About from "./component/About";
 
 const playersFetch = async () => {
   const res = await fetch("/data.json");
@@ -26,9 +27,16 @@ function App() {
     <>
       <Navber coin={coin}></Navber>
       <Banner />
-      <Suspense fallback={<h1>Loading...</h1>}>
-        <Players playerPromise={playerPromise} coin={coin} setCoin={setCoin} />
-      </Suspense>
+      <section id="team">
+        <Suspense fallback={<h1>Loading...</h1>}>
+          <Players
+            playerPromise={playerPromise}
+            coin={coin}
+            setCoin={setCoin}
+          />
+        </Suspense>
+      </section>
+      <About />
       <Subscribe />
       <Footer />
     </>
