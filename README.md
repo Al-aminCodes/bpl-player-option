@@ -9,7 +9,7 @@ Users can explore available BPL players, select players using a virtual coin sys
 
 ## 🚀 Live Demo
 
-🔗 **Live Demo:** [Add your live website URL here](#)
+🔗 **Live Demo:** bpl-player-option.netlify.app
 
 ---
 
