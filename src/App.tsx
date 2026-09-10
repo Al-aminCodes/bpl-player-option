@@ -1,4 +1,4 @@
-import { Suspense, useState } from "react";
+import { Suspense, useEffect, useState } from "react";
 import Navber from "./component/navbar";
 import Players from "./component/players/players";
 import Banner from "./component/Banner";
@@ -13,7 +13,15 @@ const playersFetch = async () => {
 
 function App() {
   const [playerPromise] = useState(() => playersFetch());
-  const [coin, setCoin] = useState(5000);
+  const [coin, setCoin] = useState<number>(() => {
+    const savedCoin = localStorage.getItem("coin");
+
+    return savedCoin ? Number(savedCoin) : 5000;
+  });
+  useEffect(() => {
+    localStorage.setItem("coin", String(coin));
+  }, [coin]);
+
   return (
     <>
       <Navber coin={coin}></Navber>
